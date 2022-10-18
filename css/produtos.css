@@ -5,19 +5,43 @@
 
 .produtos h1 {
   font-family: "lacquer", sans-serif;
-  font-size: 2rem;
+  font-size: 2.8rem;
   margin: 60px auto 20px auto;
 }
-.produtos div img {
-  max-width: 30%;
-  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.3);
-  border-radius: 100px;
-  margin: 30px;
-}
-.produtos div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  gap: 10px;
+
+.cards h1{
   margin: 20px;
+  font-family: "irish Grover", sans-serif;
+  font-weight: 600;
+  font-size: 1.725rem;
 }
+.cards p,.cards span {
+  font-family: "irish Grover", sans-serif;
+  padding-top: 10px;
+  font-size: 1.125rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto 60px auto;
+  }
+  .cards-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 150px;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    background-color: #e3e3e3;
+
+  
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
