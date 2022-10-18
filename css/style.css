@@ -1,0 +1,23 @@
+@import url(/css/contato.css);
+@import url(/css/produtos.css);
+@import url(/css/sobre.css);
+@import url(/css/slide.css);
+@import url(/css/footer.css);
+@import url(/css/dadosNoTopo.css);
+@import url(/css/lancados.css);
+body,
+a,
+p,
+ul,
+li,
+img {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}

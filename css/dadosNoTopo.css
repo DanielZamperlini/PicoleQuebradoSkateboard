@@ -1,0 +1,36 @@
+.dados-do-topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+  align-items: center;
+  border: 2px solid #00000065;
+  font-family: "irish grover", Serif;
+  font-weight: 600;
+}
+.icons,
+.icons div {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.icons p,
+.icons a {
+  padding: 0 5px;
+}
+
+.menu nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 40px 30px;
+}
+.menu > nav > ul {
+  display: flex;
+  gap: 30px;
+  font-family: "Lacquer", cursive;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.menu img {
+  padding-top: 10px;
+}

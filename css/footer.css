@@ -1,0 +1,56 @@
+footer {
+  background: #e3e3e3;
+}
+h3,
+li {
+  font-family: "lacquer", sans-serif;
+}
+h3 {
+  font-size: 1.6rem;
+}
+.dados-enderecos li {
+  font-size: 1.125rem;
+}
+.dados-enderecos {
+  padding-top: 60px;
+}
+.endereco li {
+  font-family: "irish Grover", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 80px;
+}
+.midias-footer li {
+  display: flex;
+  flex-direction: column;
+  font-family: "lacquer", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  align-items: center;
+  padding-top: 20px;
+}
+.midias-footer {
+  padding-top: 60px;
+}
+footer img {
+  max-width: 80%;
+}
+.logo-endereco,
+.endereco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+.direitos {
+  font-family: "irish Grover", sans-serif;
+  display: grid;
+  justify-content: center;
+  padding:120px 20px 30px 60px;
+}

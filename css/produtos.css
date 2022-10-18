@@ -1,0 +1,23 @@
+.produtos {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.produtos h1 {
+  font-family: "lacquer", sans-serif;
+  font-size: 2rem;
+  margin: 60px auto 20px auto;
+}
+.produtos div img {
+  max-width: 30%;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+  margin: 30px;
+}
+.produtos div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
+  margin: 20px;
+}
