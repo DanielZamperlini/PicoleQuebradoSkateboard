@@ -1,0 +1,151 @@
+@media screen and (max-width: 1200px) {
+  .icons,
+  .icons div {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .cards-item {
+    max-width: 150px;
+    min-width: 150px;
+    margin: 0px;
+    padding: 10px;
+  }
+  .cards-item h1 {
+    font-size: 1.125rem;
+  }
+  .cards-item p,
+  .cards-item span {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+  .sobre img {
+    max-width: 80%;
+  }
+  .sobre div h3 {
+    font-size: 1.125rem;
+  }
+  .sobre div p {
+    font-size: 1rem;
+  }
+  .videos-conteiner h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .icons .local {
+    display: none;
+  }
+  .menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 30px;
+  }
+  .videos-conteiner h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .email-topo a {
+    display: none;
+  }
+  .menu > nav > ul {
+    gap: 20px;
+    font-size: 1.5rem;
+  }
+  .dados-enderecos h3 {
+    font-size: 1.125rem;
+  }
+  .dados-enderecos ul li {
+    font-size: 1rem;
+  }
+  .logo-endereco ul li {
+    font-size: 1rem;
+  }
+  .sobre div h3 {
+    font-size: 1rem;
+  }
+  .sobre div p {
+    font-size: 0.75rem;
+  }
+  .videos-conteiner h3 {
+    font-size: 1.25rem;
+  }
+  .container-contato h2, .container-contato .endereco li {
+    font-size: 1rem;
+  }
+  .container-endereco img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .menu > nav > ul {
+    gap: 20px;
+    font-size: 1.125rem;
+  }
+  .dados-enderecos h3,
+  .midias-footer li {
+    font-size: 1rem;
+  }
+  .dados-enderecos ul li,
+  .direitos {
+    font-size: 0.75rem;
+  }
+  .logo-endereco ul li {
+    font-size: 0.75rem;
+  }
+  .sobre div h3 {
+    font-size: 0.85rem;
+  }
+  .sobre div p {
+    font-size: 0.55rem;
+  }
+  .sobre img {
+    max-width: 70%;
+  }
+  .videos-conteiner h3 {
+    font-size: 1.125rem;
+  }
+  .videos-conteiner iframe {
+    max-width: 100%;
+  }
+  .container-contato h2, .container-contato .endereco li {
+    font-size: 0.75rem;
+  }
+  .container-endereco {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .container-endereco img {
+    padding-left: 60px;
+  }
+  .container-endereco img {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .dados-do-topo {
+    display: none;
+  }
+  .dados-enderecos h3,
+  .midias-footer li,
+  .direitos {
+    font-size: 0.75rem;
+  }
+  .dados-enderecos ul li {
+    font-size: 0.55rem;
+  }
+  .logo-endereco ul li,
+  .direitos {
+    font-size: 0.55rem;
+  }
+  .videos-conteiner h3 {
+    font-size: 1rem;
+  }
+  .menu nav img {
+    max-width: 100%;
+  }
+}
