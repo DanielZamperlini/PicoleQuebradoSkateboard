@@ -9,7 +9,7 @@
 .js [data-slide] > .active {
   position: relative;
   opacity: 1;
-  transition: opacity 500ms;
+  transition: opacity 1000ms;
 }
 
 .js [data-slide-nav] {
