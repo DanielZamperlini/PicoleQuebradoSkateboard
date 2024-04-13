@@ -22,6 +22,7 @@
   display: flex;
   justify-content: space-between;
   justify-items: center;
+  align-items: center;
   padding: 40px 30px;
 }
 .menu > nav > ul {
@@ -31,6 +32,11 @@
   font-size: 2rem;
   font-weight: 600;
 }
-.menu img {
-  padding-top: 10px;
+.logoTipo {
+  width: 60px;
+  margin-right: 10px;
+}
+.containerLogo {
+  justify-items: center;
+  align-items: center;
 }

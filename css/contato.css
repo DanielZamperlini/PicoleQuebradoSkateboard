@@ -53,9 +53,18 @@ form textarea {
   grid-template-columns: 1fr;
   justify-items: center;
   gap: 60px;
-
 }
 .container-endereco {
   display: flex;
   gap: 120px;
+}
+#whats {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+#whats img {
+  width: 100px;
+  height: 100px;
 }
