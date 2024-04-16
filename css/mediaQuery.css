@@ -192,4 +192,7 @@
   #row-11 {
     grid-row: 11;
   }
+  .sobre {
+    padding: 10px;
+  }
 }
