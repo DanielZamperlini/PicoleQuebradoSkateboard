@@ -132,6 +132,9 @@
   .dados-do-topo .icons div:last-child {
     display: none;
   }
+  .mediaQueries-d-none {
+    display: none;
+  }
   .dados-enderecos h3,
   .midias-footer li,
   .direitos {
