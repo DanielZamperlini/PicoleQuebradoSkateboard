@@ -50,4 +50,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #62b826;
+  font-weight: 600;
+}
+.price p {
+  color: #ec8d0e;
+}
+.cards-item h1 {
+  font-size: 1.3rem;
 }
